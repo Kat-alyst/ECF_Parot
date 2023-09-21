@@ -27,7 +27,6 @@
             <a href="buy.php" style="">Buy</a>
             <a href="reviews.php" style="">Reviews</a>
             <a href="contact.php" style="">Contact</a>
-            <a href="about.php" style="">About</a>
             <a href="signup.php" class="btnSignup">Sign Up</a>
         </nav>
 

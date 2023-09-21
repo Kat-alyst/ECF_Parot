@@ -10,33 +10,35 @@
     rel="stylesheet">
     <link rel = "reset stylesheet" href="css/reset.css">
     <link rel = "stylesheet" href= "css/main.css">
-    <title>Garage V. Parot</title>
+    <title>signup</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
 </head>
-
+        
 <body>
+    <h1>Signup</h1>  
 
-    <header class="header">
-        <a href="index.php" class="logo">
-        <img src="img\logo_black.png" alt="" style="width: 150px">
-        </a>
+      <form action="process-signup.php" method="post">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+    </div>
 
-        <nav class="navbar">
-            <a href="index.php" style="" class="active">Home</a>
-            <a href="repair.php" style="">Repair</a>
-            <a href="buy.php" style="">Buy</a>
-            <a href="reviews.php" style="">Reviews</a>
-            <a href="contact.php" style="">Contact</a>
-            <a href="about.php" style="">About</a>
-            <a href="signup.php" class="btnSignup">Sign Up</a>
-        </nav>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+    </div>
 
-        <div class="social-media">
-            <a href="#" style="--i:1"><i class='bx bxl-twitter'></i></a>
-            <a href="#" style="--i:2"><i class='bx bxl-facebook'></i></a>
-            <a href="" style="--i:3"><i class='bx bxl-instagram-alt'></i></a>
-            
-        </div>
-        <h3>Login</h3>
-        <form action="" method="post"></form>
-    </header>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+    </div>
+    <div>
+        <label for="password_confirmation">Reapeat Password</label>
+        <input type="password" id="password_confirmation" name="password_confirmation">
+    </div>
+    <button>Sign Up</button>
+
+</form>
+</body>
+  </html>  
